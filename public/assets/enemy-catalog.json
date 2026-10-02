@@ -1,0 +1,103 @@
+{
+  "ok": true,
+  "version": 23,
+  "spawnRatios": [
+    0.5572916666666666,
+    0.5572916666666666
+  ],
+  "enemies": [
+    {
+      "id": "chamber",
+      "imgW": 150,
+      "imgH": 130,
+      "scale": 1.05,
+      "posY": 520,
+      "speed": 0.9,
+      "hitbox": {
+        "x": 67,
+        "y": 8,
+        "w": 10,
+        "h": 104
+      },
+      "name": "chamber",
+      "gifLeftUrl": "/api/enemy-assets/chamber/left.gif?v=20260722025830",
+      "gifRightUrl": "/api/enemy-assets/chamber/right.gif?v=20260722025830",
+      "frameRangeLeft": null,
+      "frameRangeRight": null,
+      "enabled": true,
+      "sortOrder": 100
+    },
+    {
+      "id": "cypher",
+      "imgW": 150,
+      "imgH": 122,
+      "scale": 1.15,
+      "posY": 514,
+      "speed": 1,
+      "hitbox": {
+        "x": 64,
+        "y": 13,
+        "w": 14,
+        "h": 85
+      },
+      "name": "cypher",
+      "gifLeftUrl": "/api/enemy-assets/cypher/left.gif?v=20260802120337",
+      "gifRightUrl": "/api/enemy-assets/cypher/right.gif?v=20260802120337",
+      "frameRangeLeft": [
+        5,
+        39
+      ],
+      "frameRangeRight": null,
+      "enabled": true,
+      "sortOrder": 100
+    },
+    {
+      "id": "jett",
+      "imgW": 150,
+      "imgH": 146,
+      "scale": 1.15,
+      "posY": 491,
+      "speed": 1,
+      "hitbox": {
+        "x": 67,
+        "y": 32,
+        "w": 14,
+        "h": 91
+      },
+      "name": "jett",
+      "gifLeftUrl": "/api/enemy-assets/jett/left.gif?v=20260822160101",
+      "gifRightUrl": "/api/enemy-assets/jett/right.gif?v=20260822160101",
+      "frameRangeLeft": [
+        13,
+        50
+      ],
+      "frameRangeRight": null,
+      "enabled": true,
+      "sortOrder": 100
+    },
+    {
+      "id": "sage",
+      "imgW": 150,
+      "imgH": 126,
+      "scale": 1.11,
+      "posY": 514,
+      "speed": 0.9,
+      "hitbox": {
+        "x": 65,
+        "y": 10,
+        "w": 13,
+        "h": 94
+      },
+      "name": "sage",
+      "gifLeftUrl": "/api/enemy-assets/sage/left.gif?v=20260802120515",
+      "gifRightUrl": "/api/enemy-assets/sage/right.gif?v=20260802120515",
+      "frameRangeLeft": [
+        7,
+        44
+      ],
+      "frameRangeRight": null,
+      "enabled": true,
+      "sortOrder": 100
+    }
+  ]
+}
